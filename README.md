@@ -22,7 +22,13 @@ For more information about the core project, visit [eInk Art Gallery on GitHub](
 - Docker support enabled (most Home Assistant installations include this)
 - ~200MB free disk space for the add-on
 
-### Add the Repository
+## Add the Repository
+
+### Automatic
+
+[![Open your Home Assistant instance and show the add add-on repository dialog with a eink Art Gallery add-on repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fkotope%2Feink-art-gallery-addon)
+
+### ...or Manual
 
 1. In Home Assistant, go to **Settings** → **Add-ons & automations** → **Add-on Store**
 2. Click the menu icon (⋮) in the top-right corner
@@ -42,7 +48,7 @@ For more information about the core project, visit [eInk Art Gallery on GitHub](
 
 1. Click the **Start** button
 2. Enable **Start on boot** if desired
-3. The add-on will be available at `http://homeassistant.local:8112` (or your Home Assistant IP:8112)
+3. The add-on will be available at `http://<your-home-assistant-ip>:8112`
 
 ## Configuration
 
@@ -82,7 +88,6 @@ http://<your-home-assistant-ip>:8112
 
 - **aarch64** (ARM 64-bit) - Raspberry Pi 4, etc.
 - **amd64** (x86-64) - Traditional computers
-- **armhf** (ARM 32-bit) - Raspberry Pi 3, Pi Zero W, etc.
 
 ## Troubleshooting
 
