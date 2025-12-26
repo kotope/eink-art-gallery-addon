@@ -1,6 +1,6 @@
 name: "eInk Art Gallery"
 description: "eInk Art Gallery add-on!"
-version: "0.0.4"
+version: "0.0.5"
 slug: "eink-art-gallery"
 url: "https://github.com/kotope/eink-art-gallery"
 startup: application
