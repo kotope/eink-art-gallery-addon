@@ -1,4 +1,4 @@
-FROM kotope/eink-art-gallery:0.0.3
+FROM kotope/eink-art-gallery:0.0.4
 
 USER root
 
